@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content ="initial-scale=1.0"
+    />
+    <title>Mein Senda</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/custom.css">
+</head>
+
+<body>
+
+<div>
+    <img src="assets/logo.png">
+
+    <h1>Erstelle dein Set</h1>
+    
+    <form id="form-choose-topics" action="get_audio_file.php" method="post">
+        <select name="select-topic-news">
+            <option>Wähle dein Nachrichten-Thema</option>
+            <option value="politik">Politik</option>
+            <option value="sport">Sport</option>
+            <option value="wirtschaft">Wirtschaft</option>
+        </select>
+        <select name="select-topic-music">
+            <option>Wähle deine Musikrichtung</option>
+            <option value="charts">Charts</option>
+            <option value="elektro">Elektro</option>
+            <option value="rock">Rock</option>
+        </select>
+        <select name="select-topic-lifestyle">
+            <option>Wähle dein Lifestyle-Thema</option>
+            <option value="selbstentwicklung">Selbstentwicklung</option>
+            <option value="kultur">Kultur</option>
+            <option value="technik">Technik</option>
+        </select>
+        <input type="submit" value="Mein Senda hören">
+    </form>
+</div>
+
+</body>
+
+</html>

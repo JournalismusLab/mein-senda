@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    background-image: url('../assets/background.png');
+    background-size: cover;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 200%;
+}
+
+form {
+    display: inline-block;
+}
+
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    width: 100%;
+}
